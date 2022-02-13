@@ -1,0 +1,63 @@
+:root {
+    --colorI: #1d3c45;
+    --colorII: #d2601a;
+    --colorIII: rgb(25, 70, 153)
+    /* #fff1e1; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--colorI);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* HEADER / NAV BAR START */
+header {
+    background-image: url("../images/kentucky.jpg");
+    background-size: cover;
+    background-position: 100%;
+    padding: 60px 55px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    padding-left: 0;
+    padding-bottom: 10%;
+    color:rgb(25, 70, 153)
+}
+header {
+    color: var(--colorIII);
+    font-family:'Courier New', Courier, monospace;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-weight: bold;
+}
+header nav ul li a {
+    color: var(--colorIII);
+    padding: 30px 15px;
+    font-size: 30px;
+    
+}
+header div {
+    font-size: 30px;
+    color:greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-left: 75%;
+}
+/* HEADER NAV BAR END */
+
+
+
+
+
