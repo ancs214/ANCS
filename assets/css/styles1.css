@@ -103,13 +103,16 @@ flex: 1;
 
 .runbuddyworklink {
     flex: 4;
+    margin: 10px;
     /* background-image: url("../images/runbuddy.jpeg");
     width: 1200px;
     background-size: cover; 
     padding: 0 30px 30px 30px; */
 }
 .otherworklinks {
-    flex: 1;
+    
+    margin: 10px;
+   
 } /*
 .otherworklinks img {
     padding-left: 30px;
