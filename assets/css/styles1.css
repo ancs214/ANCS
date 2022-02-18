@@ -12,6 +12,7 @@
 body {
     color: var(--colorI);
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(241, 179, 8, 0.308);
 }
 
 /* HEADER / NAV BAR START */
@@ -74,11 +75,7 @@ flex: 1;
     padding-right: 20px;
     flex: 1;
 }
-.mywork {
-    flex: 4;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .aboutme {
     display: flex;
     padding: 30px;
@@ -86,6 +83,9 @@ flex: 1;
 .aboutme p {
     padding-left: 30px;
     padding-right: 50px;
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
 }
 /* END ABOUT ME SECTION */
 
@@ -94,18 +94,32 @@ flex: 1;
 .work {
     display: flex;
 }
+.mywork {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 .runbuddyworklink {
-    flex: 8;
+    flex: 4;
     /* background-image: url("../images/runbuddy.jpeg");
     width: 1200px;
-    background-size: cover; */
-    padding: 0 30px 30px 30px;
+    background-size: cover; 
+    padding: 0 30px 30px 30px; */
 }
 .otherworklinks {
     flex: 1;
-}
+} /*
 .otherworklinks img {
     padding-left: 30px;
+} */
+.otherworklinks p, .runbuddyworklink p {
+    position: relative;
+    bottom: 45px;
+    left: 35px;
+    color: white;
+    
 }
 
 
