@@ -65,52 +65,70 @@ flex: 1;
 /* END HEADER/NAV BAR STYLING */
 
 
-.aboutme {
-  display: flex;
-  flex-wrap: wrap;
-  /* justify-content: space-between; */
-  padding: 30px;
-  
+
+/* BEGIN ABOUT ME SECTION */
+.info-title {
+    font-size: 35px;
+    text-align: right;
+    border-right: 3px solid #1d3c45;
+    padding-right: 20px;
+    flex: 1;
 }
-.aboutme h3 {
-  flex: 1;
+.mywork {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutme {
+    display: flex;
+    padding: 30px;
 }
 .aboutme p {
-  flex: 4;
-  padding: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
 }
+/* END ABOUT ME SECTION */
 
 
-
-
-/* ALL SECTION H3 STYLING */
-.info-title {
-  font-size: 35px;
-  text-align: right;
-  padding-right: 10px;
-  border-right: 3px solid #1d3c45;
-}
-
-
-/* WORK LINK STYLING */
+/* BEGIN MY WORK SECTION */
 .work {
-  display: flex;
+    display: flex;
 }
-.work h3 {
-  flex: 1;
+.runbuddyworklink {
+    flex: 8;
+    /* background-image: url("../images/runbuddy.jpeg");
+    width: 1200px;
+    background-size: cover; */
+    padding: 0 30px 30px 30px;
 }
-.runbuddy-work-link {
-  background-image: url("../images/runbuddy.jpeg");
-  background-size: 800px 400px; 
+.otherworklinks {
+    flex: 1;
 }
-
-.mywork {
-  flex: 4;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: flex-end;
+.otherworklinks img {
+    padding-left: 30px;
 }
 
+
+
+/* BEGIN CONTACT ME SECTION */
+
+.contactmeheader {
+    font-size: 35px;
+    text-align: right;
+    border-right: 3px solid #1d3c45;
+    padding-right: 8px;
+    flex: 1;
+}
+.contactinfo {
+    flex: 4;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* FOOTER STYLING */
+h4 {
+    text-align: center;
+
+}
